@@ -27,6 +27,9 @@ def streamlist(gender, age, department, insurance_coverage, needs_transportation
             return available_programs
         elif age >= 18:
             available_programs.extend([
+                "FPP",
+                "Junior League Houston"
+                "Houston Methodist In Kind Grant",
                 "American Cancer Society (ACS)",
                 "HTW",
                 "Breast Health Programs",
